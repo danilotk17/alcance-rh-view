@@ -1,0 +1,39 @@
+html, body {
+	position: relative;
+}
+
+.principal {
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 100px;
+	border-radius: 10px;
+	border: 1px solid #DDD;
+	position: relative;
+}
+
+.menu {
+	
+}
+
+#cabecalho {
+	position: relative;
+	min-height: 120px;
+	height: 20%;
+	margin-bottom: 10px;
+	padding: 10px
+}
+
+#centro {
+	position: relative;
+	min-height: 300px;
+	height: 60%;
+	margin-bottom: 10px;
+	padding: 10px
+}
+
+#rodape {
+	position: static;
+	min-height: 80px;
+	height: 20%;
+	padding: 10px
+}
