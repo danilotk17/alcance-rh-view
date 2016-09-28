@@ -17,20 +17,23 @@
 		<!-- Angular -->
 		<script src="../static/js/angular.min.js"></script>
 		<script src="../static/js/app.js"></script>
+		<script src="../static/js/controller/HomeController.js"></script>
+		<script src="../static/js/controller/EmpresaController.js"></script>
+		
 	</head>
 	<body ng-app="app">
-		<div class="principal">
+		<section class="principal">
 		
 			<section class="centro">
 		    	<ul class="nav nav-tabs">
-  					<li role="presentation" class="active"><a href="#">Home</a></li>
-  					<li role="presentation"><a href="#">Empresa</a></li>
+  					<li role="presentation" class="active"><a href="#/">Home</a></li>
+  					<li role="presentation"><a href="#/empresa">Empresa</a></li>
 					<li role="presentation"><a href="#">Serviços</a></li>
 					<li role="presentation"><a href="#">Clientes</a></li>
 					<li role="presentation"><a href="#">Contatos</a></li>
 				</ul>
-				<div class="div-centro"></div>
+				<div ng-view class="div-centro"></div>
 			</section>
-		</div>
+		</section>
 	</body>
 </html> 
