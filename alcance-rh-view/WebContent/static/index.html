@@ -3,13 +3,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Alcance Recursos Humanos</title>
+		
+		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+		
+		<!-- JQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<!-- JS -->
+		<script src="../static/js/main.js"></script>
+		
+		<!-- Angular -->
+		<script src="../static/js/angular.min.js"></script>
+		<script src="../static/js/app.js"></script>
 	</head>
-	<body>
+	<body ng-app="app">
 		<div class="principal">
 		
-			<header id="cabecalho">
+			<section class="centro">
 		    	<ul class="nav nav-tabs">
   					<li role="presentation" class="active"><a href="#">Home</a></li>
   					<li role="presentation"><a href="#">Empresa</a></li>
@@ -17,16 +29,8 @@
 					<li role="presentation"><a href="#">Clientes</a></li>
 					<li role="presentation"><a href="#">Contatos</a></li>
 				</ul>
-			</header>
-			
-			<section id="centro">
-	    		Aqui é o meio da página;
+				<div class="div-centro"></div>
 			</section>
-			
-			<footer id="rodape">
-	    		Aqui é o rodapé;
-			</footer>
-		
 		</div>
 	</body>
 </html> 
