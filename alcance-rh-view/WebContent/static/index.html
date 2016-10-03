@@ -28,9 +28,13 @@
 		<base href="/alcance-rh-view/">
 	</head>
 	<body ng-app="app">
-		<section class="principal">
 		
-			<section class="centro">
+		<header class="cabecalho">
+			<img class="imagem" alt="Logo" src="static/img/logo.jpg" height="110">
+		</header>
+		
+		<section class="principal">
+			<div class="centro">
 		    	<ul class="nav nav-tabs">
   					<li role="presentation" class="active"><a href="home">Home</a></li>
   					<li role="presentation"><a href="empresa">Empresa</a></li>
@@ -39,7 +43,11 @@
 					<li role="presentation"><a href="contato">Contatos</a></li>
 				</ul>
 				<div ng-view class="div-centro"></div>
-			</section>
+			</div>
 		</section>
+		
+		<footer class="rodape">
+		
+		</footer>
 	</body>
 </html> 
