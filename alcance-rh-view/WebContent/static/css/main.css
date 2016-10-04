@@ -3,9 +3,21 @@ html, body {
 	height: 90%;
 }
 
-.imagem {
-	margin-top: 5px;
+.logo {
+	margin-top: 15px;
 	margin-left: 200px;
+}
+
+.logo img {
+	margin-top: 5px;
+}
+
+.imagem {
+	opacity: 1;
+}
+
+.imagem:HOVER {
+	opacity: 0.5;
 }
 
 .cabecalho {

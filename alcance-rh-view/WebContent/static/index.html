@@ -30,13 +30,15 @@
 	<body ng-app="app">
 		
 		<header class="cabecalho">
-			<img class="imagem" alt="Logo" src="static/img/logo.jpg" height="110">
+			<a href="home" class="logo">
+				<img alt="Logo" src="static/img/logo.jpg" height="110">
+			</a>
 		</header>
 		
 		<section class="principal">
 			<div class="centro">
 		    	<ul class="nav nav-tabs">
-  					<li role="presentation" class="active"><a href="home">Home</a></li>
+  					<li id="home-tab" role="presentation" class="active"><a href="home">Home</a></li>
   					<li role="presentation"><a href="empresa">Empresa</a></li>
 					<li role="presentation"><a href="servicos">Serviços</a></li>
 					<li role="presentation"><a href="clientes">Clientes</a></li>
