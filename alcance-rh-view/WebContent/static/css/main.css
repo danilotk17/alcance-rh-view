@@ -3,6 +3,10 @@ html, body {
 	height: 90%;
 }
 
+td {
+	display: block;
+}
+
 .logo {
 	margin-top: 15px;
 	margin-left: 200px;
@@ -12,11 +16,21 @@ html, body {
 	margin-top: 5px;
 }
 
-.imagem {
-	opacity: 1;
+.box-image {
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #DDD;
+	margin: 5px;
 }
 
-.imagem:HOVER {
+.box-image img {
+	opacity: 1;
+	margin: 10px;
+	height: 110px;
+	width: 230px;
+}
+
+.box-image img:HOVER {
 	opacity: 0.5;
 }
 
@@ -40,7 +54,6 @@ html, body {
 	border-radius: 10px;
 	border: 1px solid #DDD;
 	position: relative;
-	height: 585px;
 	
 }
 
