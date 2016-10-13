@@ -3,8 +3,26 @@ html, body {
 	height: 90%;
 }
 
-td {
+.td-cliente {
 	display: block;
+}
+
+.tr-cliente td{
+	padding-bottom: 10px;
+}
+
+.tr-cliente td input {
+	margin-left: 20px;
+	width: 500px;
+}
+
+.tr-cliente td textarea {
+	margin-left: 20px;
+	width: 500px;
+}
+
+.td-contato {
+	display: inline-block;
 }
 
 .logo {
